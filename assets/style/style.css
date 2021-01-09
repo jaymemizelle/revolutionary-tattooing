@@ -5,6 +5,7 @@ body {
     box-sizing: none;
 }
 
+/* Navbar */
 nav {
     border-bottom: solid;
     border-color: rgb(201, 28, 28);
@@ -30,19 +31,31 @@ nav {
     color: black;
 }
 
+header {
+    text-align: right;
+}
+
 h2 {
     color: rgb(201, 28, 28);
-    float: right;
-    margin-right: 100px;
+    margin-left: 15px;
+    margin-right: 35px;
     margin-top: 50px;
+    text-align: right;
 }
 
 h3 {
     color: rgb(201, 28, 28);
 }
 
-img {
-    margin-bottom: 50px;
+.star {
+    margin-top: 25px;
+    margin-left: 450px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+.star2 {
+    margin-top: 25px;
 }
 
 .container-lg {
